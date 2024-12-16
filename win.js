@@ -4,8 +4,10 @@ window.onload = function () {
   victorytheme.volume = 0.3;
   victory();
   console.log("hi");
+  //play music on load
 };
 function triggerSpin() {
+  //micah's jquery spin animation below
   $(".spin-image").css("transform", "rotateY(1080deg)");
 }
 function victory() {
