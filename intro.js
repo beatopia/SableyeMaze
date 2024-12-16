@@ -6,15 +6,18 @@ var click = new Audio("audio/click.m4a");
 
 imgs.onclick = function () {
   modal.style.display = "block";
+  //sets next modal to visible
 };
 
 span.onclick = function () {
   modal.style.display = "none";
+  //if you click the span aka the x it closes the modal
 };
 
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
+    //when you click a text bubble, it disappears so the next one can be seen
   }
 };
 
@@ -22,7 +25,7 @@ function showModal() {
   console.log("hi");
   document.getElementById("myModal").style.display = "block";
 }
-
+//cycles through the modals by adding hidden to the one just pressed and removing hidden from the next one in line
 function changetext1() {
   click.play();
   document.getElementById("t1").classList.add("hidden");
