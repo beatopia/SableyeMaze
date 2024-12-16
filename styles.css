@@ -152,9 +152,6 @@ button {
   cursor: pointer;
 }
 
-.player-tile {
-  background-color: pink; /* Player tile color */
-}
 .black {
   background-color: #7f55b9;
   border: 20px solid #7f55b9;
